@@ -23,6 +23,14 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - put the image element inside the div 
 - us css to center the image inside the div and make the div width a bit wider than the image
 
+#### I learnt how to put more than an amage over eachother or overlaying images
+- make a container div for the images 
+- if you want a background color just make a div inside the conainer div
+- for the container put position: relative; 
+- and for the children put position: absolute; 
+- change top bottom left right properties as see right 
+
+
 
 ### Continued development
  I should learn preprocessors 

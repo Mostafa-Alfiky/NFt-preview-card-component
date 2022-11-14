@@ -33,7 +33,7 @@ main {
 }
 
 .icon-view {
-    gap: 100px;
+    gap: 90px;
 }
 
 .creation-section {
@@ -62,7 +62,6 @@ main {
 .image-equil {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .circle {
@@ -90,6 +89,34 @@ span {
 
 .name:hover, span:hover {
     color: cyan;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.4s ease;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
 }
 
 @media (min-width:450px) {
