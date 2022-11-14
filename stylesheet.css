@@ -88,6 +88,10 @@ span {
 }
 
 
+.name:hover, span:hover {
+    color: cyan;
+}
+
 @media (min-width:450px) {
     main {
         margin-top: 100px;
