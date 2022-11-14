@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 330px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-family: 'outfit';
+}
+
+.name, .text-discription, .icon-view {
+    margin-bottom: 20px;
+}
+
+.icon-view , .creation-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+    margin-right: 4px;
+}
+
+.icon-view {
+    gap: 100px;
+}
+
+.creation-section {
+    font-size: 14px;
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.name {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.text-discription, .creation , .clock {
+    color:  hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.ethereum {
+    color: cyan;
+    font-size: 14px;
+}
+
+.image-equil {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.circle {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    color: white;
+}
+
+.creation {
+    position: relative;
+    top: 3px;
+}
+
+
+@media (min-width:450px) {
+    main {
+        margin-top: 100px;
+    }
+}
