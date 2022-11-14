@@ -9,7 +9,7 @@ body {
     justify-content: center;
 }
 main {
-    width: 330px;
+    width: 360px;
     background-color: hsl(216, 50%, 16%);
     padding: 25px;
     margin-top: 25px;
@@ -33,7 +33,7 @@ main {
 }
 
 .icon-view {
-    gap: 90px;
+    gap: 110px;
 }
 
 .creation-section {
@@ -96,7 +96,7 @@ span {
     position: relative;
     display: block;
     width: 100%;
-    height: 280px;
+    height: 310px;
     margin-bottom: 15px;
 }
 
